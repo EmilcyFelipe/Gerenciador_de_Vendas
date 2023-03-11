@@ -31,12 +31,12 @@ export const Search = styled.TextInput.attrs({
 })`
     border: 1px solid rgba(0,0,0,0.3);
     height: 40px;
-    flex-grow: 6;
     border-radius: 4px;
 `;
 
 export const Category = styled.View`
-    width: 300;
+   width:200;
+   justify-content: space-between;
     background-color: red;
 `;
 

@@ -16,7 +16,7 @@ import {
 export default function Home() {
     const [selectedCategory, setSelectedCategory] = useState();
 
-    const PickerComponent = <Picker itemStyle={{ flex: 'none' }}>
+    const PickerComponent = <Picker >
         <Picker.Item label="Categoria" value="qualquer" />
         <Picker.Item label="Feijão" value="qualquer1" />
         <Picker.Item label="Feijão" value="qualquer2" />
